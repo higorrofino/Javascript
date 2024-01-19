@@ -18,15 +18,11 @@ console.log(`The result of the division is ${secondNumDiv}`);
 
 console.log(`Exercse 2`);
 
-var1 = true;
-var2 = false;
-andOperation = var1 && var2;
-orOperation = var1 || var2;
-console.log(andOperation);
-console.log(orOperation);
+const bool1 = true;
+const bool2 = false;
+console.log(bool1 && bool2);
+console.log(bool1 || bool2);
 
-var3 = false;
-lastOperationAnd = var1 && var2 && var3;
-lastOperationOr = var1 || var2 || var3;
-console.log(lastOperationAnd);
-console.log(lastOperationOr);
+const bool3 = false;
+console.log(bool1 && bool2 && bool3);
+console.log(bool1 || bool2 || bool3);
