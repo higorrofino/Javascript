@@ -15,3 +15,18 @@ console.log(`The second value squared is ${secondNumExp}`);
 
 const secondNumDiv = secondNumExp / 3;
 console.log(`The result of the division is ${secondNumDiv}`);
+
+console.log(`Exercse 2`);
+
+var1 = true;
+var2 = false;
+andOperation = var1 && var2;
+orOperation = var1 || var2;
+console.log(andOperation);
+console.log(orOperation);
+
+var3 = false;
+lastOperationAnd = var1 && var2 && var3;
+lastOperationOr = var1 || var2 || var3;
+console.log(lastOperationAnd);
+console.log(lastOperationOr);
