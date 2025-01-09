@@ -1,0 +1,1 @@
+for ($i=1; $i -le 9; $i++) { New-Item -Name "requisito0$i.js" -ItemType File } --(Criar variaos arquivos padrao)--
